@@ -10,9 +10,20 @@
 
    <body>
       <div class="container">
-         <h1>Manage Node.js projects and npm packages using package.json</h1>
-         <h3>Part 1 of Free Code Camp Backend Challenges</h3>
-      </div>
+       <h1>FCC Backend Challenges</h1>
+       <h2>Challenge 05: File Upload Size Check</h2>
+       <h3>User stories:</h3>
+         <ul>1.  I can submit a FormData object that includes a file upload.</ul>
+         <ul>2.  When I submit something, I will receive the file size in bytes within the JSON response</ul>
+        <br>
+        <h3>
+          Please upload file below:
+        </h3>
+        <form action="/submitFile" method="post" enctype="multipart/form-data">
+          <input type="file" name="fileName" accept="">
+          <input type="submit">
+      </form> 
+     </div>
    </body>
 
 </html>
